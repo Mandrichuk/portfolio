@@ -33,7 +33,7 @@ const Ball = (props) => {
 const BallCanvas = ({ technology }) => {
   return (
     <Canvas
-      frameloop='demand'
+      requestAnimationFrame
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
