@@ -38,7 +38,7 @@ const Contact = () => {
       to_email: "andrew.mandrichuk2007@gmail.com",
       message: form.message,
     },
-    "O_emiMG-zC22X_eF2"
+    "O_emiMG-zC22X_eF2",
     )
      .then(() => {
         setLoading(false);
